@@ -1,0 +1,111 @@
+/* style_result.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.a1, .a2 {
+    display: inline-block;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin-left: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: #52a9d4;
+    font-size: 50px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 46px;
+    color: rgb(240, 238, 238);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .a1, .a2 {
+        display: inline-block;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        margin-left: 10%;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #52a9d4;
+        font-size: 40px;
+    }
+    
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 36px;
+        color: rgb(240, 238, 238);
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .a1, .a2 {
+        display: inline-block;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        margin-left: 10%;
+    }
+    
+    h1 {
+        text-align: center;
+        color: #52a9d4;
+        font-size: 30px;
+    }
+    
+    a {
+        display: block;
+        text-align: center;
+        margin-top: 26px;
+        color: rgb(240, 238, 238);
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+}
